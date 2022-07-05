@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1685" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="app/src/main/res/layout/activity_medicine.xml" value="0.190625" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.190625" />
+        <entry key="app/src/main/res/layout/activity_splash_csreen.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/layout/fragment_choose_doctor.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/layout/fragment_health_solution.xml" value="0.16979166666666667" />
+        <entry key="app/src/main/res/layout/fragment_order.xml" value="0.16979166666666667" />
       </map>
     </option>
   </component>

@@ -8,6 +8,12 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.moringaschool.medicare.ui.activities.SplashScreenActivity;
+import com.moringaschool.medicare.ui.fragments.ChooseDoctorFragment;
+import com.moringaschool.medicare.ui.fragments.HealthSolutionFragment;
+import com.moringaschool.medicare.ui.fragments.OrderFragment;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         name = findViewById(R.id.txt);
         name.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,5 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }

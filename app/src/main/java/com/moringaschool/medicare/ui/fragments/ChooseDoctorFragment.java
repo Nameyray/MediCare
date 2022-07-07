@@ -3,28 +3,33 @@ package com.moringaschool.medicare.ui.fragments;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.moringaschool.medicare.R;
+
+import java.util.zip.Inflater;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 
 public class ChooseDoctorFragment extends Fragment {
 
-
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-    }
+    View view;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_choose_doctor, container, false);
+       view = inflater.inflate(R.layout.fragment_choose_doctor, container, false);
+       return view;
     }
+
+
+
 }

@@ -10,8 +10,7 @@ import android.view.ViewGroup;
 
 import com.moringaschool.medicare.R;
 
-
-public class OrderFragment extends Fragment {
+public class HealthSolutionFragment extends Fragment {
 
     View view;
 
@@ -19,7 +18,7 @@ public class OrderFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_order, container, false);
+        view = inflater.inflate(R.layout.fragment_health_solution, container, false);
         return view;
     }
 }
